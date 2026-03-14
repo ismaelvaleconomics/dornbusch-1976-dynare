@@ -60,13 +60,13 @@ run_dynare = false;
 
 | Parámetro | Valor | Descripción |
 |-----------|-------|-------------|
-| λ (lambda) | 0.50 | Semielasticidad-interés de la demanda de dinero |
-| φ (phi) | 1.00 | Elasticidad-ingreso de la demanda de dinero |
-| δ (delta) | 0.60 | Elasticidad precio-relativo de la demanda de bienes |
-| σ (sigma) | 0.30 | Sensibilidad de la demanda de bienes a la tasa de interés |
-| π (pi_p) | 0.40 | Velocidad de ajuste de precios |
-| r* (rstar) | 0.04 | Tasa de interés mundial (4% anual) |
-| ρ_m (rho_m) | 0.90 | Persistencia del proceso monetario AR(1) |
+| $\lambda$ (lambda) | 0.50 | Semielasticidad-interés de la demanda de dinero |
+| $\phi$ (phi) | 1.00 | Elasticidad-ingreso de la demanda de dinero |
+| $\delta$ (delta) | 0.60 | Elasticidad precio-relativo de la demanda de bienes |
+| $\sigma$ (sigma) | 0.30 | Sensibilidad de la demanda de bienes a la tasa de interés |
+| $\pi$ (pi_p) | 0.40 | Velocidad de ajuste de precios |
+| $r^{*}$ (rstar) | 0.04 | Tasa de interés mundial (4% anual) |
+| $\rho_{m}$ (rho_m) | 0.90 | Persistencia del proceso monetario AR(1) |
 
 Con estos valores el script reportará en la Command Window:
 - θ̃ ≈ 0.50, ν ≈ 0.50 — verificación θ = ν satisfecha.

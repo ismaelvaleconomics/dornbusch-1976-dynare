@@ -5,7 +5,8 @@ type: software
 authors:
   - family-names: "Valverde Ambriz"
     given-names: "Ismael Dionisio"
-repository-code: "https://github.com/your-username/dornbusch-dynare-repo"
+    affiliation: "Facultad de Economía, Universidad Nacional Autónoma de México"
+repository-code: "https://github.com/ismaelvaleconomics/dornbusch-dynare-repo"
 abstract: >-
   Academic MATLAB/Dynare implementation of Rudiger Dornbusch's (1976)
   exchange-rate overshooting model, including a baseline sticky-price model,

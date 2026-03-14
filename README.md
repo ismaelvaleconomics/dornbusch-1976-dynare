@@ -131,7 +131,7 @@ Los resultados de la estimación se guardan automáticamente en las subcarpetas 
 
 ---
 
-## Suggested repository structure
+## Repository structure
 
 ```text
 .

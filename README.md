@@ -41,11 +41,11 @@ addpath('/usr/lib/dynare/matlab')  % Linux / Mac
 
 El script hace lo siguiente en orden:
 
-1. Calcula θ̃ (Ec. 15) y verifica automáticamente que θ = ν (consistencia de expectativas).
-2. Genera las trayectorias analíticas de e(t), p(t) y r(t) usando las soluciones cerradas de las Ecs. (12) y (13).
-3. Produce el diagrama de fase con las curvas QQ y ṗ=0, los puntos A→B→C, y vectores de campo.
-4. Hace análisis de sensibilidad: cómo cambia de/dm según λ, π y δ.
-5. Compara overshooting vs under-shooting con tres escenarios de γ (Ec. 20).
+1. Calcula $\tilde{\theta}$ (Ec. 15) y verifica automáticamente que $\theta = \nu$ (consistencia de expectativas).
+2. Genera las trayectorias analíticas de $e(t)$, $p(t)$ y $r(t)$ usando las soluciones cerradas de las Ecs. (12) y (13).
+3. Produce el diagrama de fase con las curvas $QQ$ y $\dot{p}=0$, los puntos $A \to B \to C$, y vectores de campo.
+4. Hace análisis de sensibilidad: cómo cambia $de/dm$ según $\lambda$, $\pi$ y $\delta$.
+5. Compara *overshooting* vs *under-shooting* con tres escenarios de $\gamma$ (Ec. 20).
 6. Lanza los tres archivos `.mod` en Dynare para obtener las IRFs formales.
 
 Para saltar Dynare y solo ver las gráficas MATLAB, cambiar en `run_dornbusch.m`:

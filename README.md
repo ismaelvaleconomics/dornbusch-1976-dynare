@@ -131,6 +131,29 @@ Los resultados de la estimación se guardan automáticamente en las subcarpetas 
 
 ---
 
+## Suggested repository structure
+
+```text
+.
+├── CITATION.cff
+├── LICENSE
+├── README.md
+├── CONTRIBUTING.md
+├── .gitignore
+├── models/
+│   ├── run_dornbusch.m
+│   ├── dornbusch_baseline.mod
+│   ├── dornbusch_estimation.mod
+│   └── dornbusch_variable_output.mod
+└── scripts/
+    └── README.md
+```
+
+## Requirements
+
+- MATLAB R2018b or newer
+- Dynare 5.x
+
 ## Referencias
 
 **Paper principal:**

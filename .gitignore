@@ -1,0 +1,40 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# MATLAB
+*.asv
+*.m~
+*.mlx.autosave
+
+# Dynare generated files
+*.log
+*.jnl
+*.eps
+*.pdf
+*.png
+*.fig
+*.mat
+*.mex*
+*.mod.bak
+*_results.mat
+*_mode.mat
+*_posterior_mode.mat
+*_mh*_blck*.mat
+*_optimal_policy_results.mat
+
+auto/
++*
+metropolis/
+Output/
+TeX/
+graphs/
+report/
+
+# Editors
+.vscode/
+.idea/
+
+# Python, in case auxiliary scripts are added later
+__pycache__/
+*.pyc

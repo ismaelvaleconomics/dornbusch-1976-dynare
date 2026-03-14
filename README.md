@@ -69,8 +69,8 @@ run_dynare = false;
 | $\rho_{m}$ (rho_m) | 0.90 | Persistencia del proceso monetario AR(1) |
 
 Con estos valores el script reportará en la Command Window:
-- θ̃ ≈ 0.50, ν ≈ 0.50 — verificación θ = ν satisfecha.
-- de/dm ≈ 5.00 → por cada 1% de expansión monetaria, el tipo de cambio se deprecia 5% en el impacto antes de corregirse hacia el largo plazo.
+- $\tilde{\theta} \approx 0.50$, $\nu \approx 0.50$ — verificación $\theta = \nu$ satisfecha.
+- $de/dm \approx 5.00 \to$ por cada 1% de expansión monetaria, el tipo de cambio se deprecia 5% en el impacto antes de corregirse hacia el largo plazo.
 
 ---
 

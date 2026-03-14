@@ -53,6 +53,15 @@ Para saltar Dynare y solo ver las gráficas MATLAB, cambiar en `run_dornbusch.m`
 ```matlab
 run_dynare = false;
 ```
+### Escenarios de ajuste: Overshooting vs. Under-shooting
+
+El comportamiento del tipo de cambio tras un choque monetario depende del cumplimiento de la condición $1 - \varphi\mu\delta \leq 0$. Aquí los tres escenarios basados en $\gamma$ (sensibilidad ingreso):
+
+1. **Overshooting ($\gamma$ bajo):** Ocurre cuando la respuesta de los precios es lenta y la demanda de dinero es poco sensible al producto. El tipo de cambio $e$ debe depreciarse más allá de su valor de equilibrio de largo plazo ($\bar{e}$) para generar la expectativa de apreciación futura necesaria que equilibre el mercado de activos.
+
+2. **Ajuste Exacto ($\gamma$ neutral):** Es el caso frontera donde $1 - \varphi\mu\delta = 0$. El tipo de cambio salta instantáneamente a su nuevo nivel de equilibrio de largo plazo sin necesidad de una corrección posterior.
+
+3. **Under-shooting ($\gamma$ alto):** Si la sensibilidad de la demanda de dinero al ingreso es muy alta, el incremento en el producto genera una presión al alza en las tasas de interés tan fuerte que el tipo de cambio se deprecia inicialmente menos de lo que lo hará en el largo plazo.
 
 ---
 

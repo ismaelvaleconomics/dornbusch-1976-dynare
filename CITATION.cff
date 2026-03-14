@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "Dornbusch (1976) in MATLAB/Dynare"
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Valverde Ambriz"
+    given-names: "Ismael Dionisio"
+repository-code: "https://github.com/your-username/dornbusch-dynare-repo"
+abstract: >-
+  Academic MATLAB/Dynare implementation of Rudiger Dornbusch's (1976)
+  exchange-rate overshooting model, including a baseline sticky-price model,
+  an extension with variable output, and an estimation-ready specification.
+keywords:
+  - Dornbusch overshooting
+  - exchange rate dynamics
+  - Dynare
+  - MATLAB
+  - macroeconomics
+  - open economy macroeconomics
+license: MIT
+version: 0.1.0
+date-released: 2026-03-13
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Dornbusch"
+      given-names: "Rudiger"
+  title: "Expectations and Exchange Rate Dynamics"
+  journal: "Journal of Political Economy"
+  year: 1976
+  volume: 84
+  issue: 6
+  start: 1161
+  end: 1176

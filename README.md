@@ -90,12 +90,12 @@ Con estos valores el script reportará en la Command Window:
 | (1) | $r = r^* + x$ | Paridad descubierta (UIP) |
 | (2) | $x = \theta(\bar{e} - e)$ | Formación de expectativas |
 | (3) | $-\lambda r + \varphi y = m - p$ | Equilibrio mercado monetario |
-| (6) | $e = \bar{e} - (1/\lambda\theta)(p - \bar{p})$ | Curva QQ (asset market schedule) |
+| (6) | $e = \bar{e} - \frac{1}{\lambda\theta}(p - \bar{p})$ | Curva QQ (asset market schedule) |
 | (8) | $\dot{p} = \pi[\delta(e - p) - \sigma(r - r^*)]$ | Ajuste de precios |
 | (12) | $p(t) = \bar{p} + (p_0 - \bar{p})\exp(-\nu t)$ | Trayectoria de precios |
 | (13) | $e(t) = \bar{e} + (e_0 - \bar{e})\exp(-\nu t)$ | Trayectoria del tipo de cambio |
-| (15) | $\tilde{\theta} = \pi(\sigma/\lambda + \delta)/2 + \sqrt{[(\pi(\sigma/\lambda + \delta)/2)^2 + \pi\delta/\lambda]}$ | Expectativas racionales |
-| (16) | $de/dm = 1 + 1/(\lambda\theta)$ | Overshooting |
+| (15) | $\tilde{\theta} = \frac{\pi(\sigma/\lambda + \delta)}{2} + \sqrt{\left[\frac{\pi(\sigma/\lambda + \delta)}{2}\right]^2 + \frac{\pi\delta}{\lambda}}$ | Expectativas racionales |
+| (16) | $\frac{de}{dm} = 1 + \frac{1}{\lambda\theta}$ | Overshooting |
 | (20) | $1 - \varphi\mu\delta \leq 0$ | Over vs under-shooting (output variable) |
 
 ---

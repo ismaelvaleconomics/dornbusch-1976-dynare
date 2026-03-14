@@ -70,7 +70,7 @@ run_dynare = false;
 
 Con estos valores el script reportará en la Command Window:
 - $\tilde{\theta} \approx 0.50$, $\nu \approx 0.50$ — verificación $\theta = \nu$ satisfecha.
-- $de/dm \approx 5.00 \to$ por cada 1% de expansión monetaria, el tipo de cambio se deprecia 5% en el impacto antes de corregirse hacia el largo plazo.
+- $\frac{de}{dm}\approx 5.00 \to$ por cada 1% de expansión monetaria, el tipo de cambio se deprecia 5% en el impacto antes de corregirse hacia el largo plazo.
 
 ---
 
